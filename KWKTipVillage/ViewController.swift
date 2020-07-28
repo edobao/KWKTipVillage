@@ -6,7 +6,7 @@
 //  Copyright © 2020 Emily Dobao. All rights reserved.
 //
 //HELLO CAN YOU SEE THIS
-
+//TESTING HELLO HELLO
 import UIKit
 
 class ViewController: UIViewController {
@@ -16,6 +16,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
+    var hello = "hello"
 }
 
