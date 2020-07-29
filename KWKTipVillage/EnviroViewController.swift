@@ -1,14 +1,14 @@
 //
-//  PhysicalHealthViewController.swift
+//  EnviroViewController.swift
 //  KWKTipVillage
 //
-//  Created by Apple on 7/28/20.
+//  Created by Apple on 7/29/20.
 //  Copyright © 2020 Emily Dobao. All rights reserved.
 //
 
 import UIKit
 
-class PhysicalHealthViewController: UIViewController {
+class EnviroViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

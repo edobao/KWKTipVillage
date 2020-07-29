@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1837ED4124D1F6040091E3AD /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4024D1F6040091E3AD /* FitnessViewController.swift */; };
+		1837ED4324D1F86E0091E3AD /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4224D1F86E0091E3AD /* MoodViewController.swift */; };
+		1837ED4524D1FC620091E3AD /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4424D1FC620091E3AD /* FamilyViewController.swift */; };
+		1837ED4724D1FCDD0091E3AD /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4624D1FCDD0091E3AD /* NutritionViewController.swift */; };
+		1837ED4924D1FCF80091E3AD /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4824D1FCF80091E3AD /* SleepViewController.swift */; };
+		1837ED4B24D1FD0E0091E3AD /* EnviroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4A24D1FD0E0091E3AD /* EnviroViewController.swift */; };
+		1837ED4D24D1FD1D0091E3AD /* CovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4C24D1FD1D0091E3AD /* CovidViewController.swift */; };
 		18D06EFC24D07F0F009557B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06EFB24D07F0F009557B2 /* AppDelegate.swift */; };
 		18D06EFE24D07F0F009557B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06EFD24D07F0F009557B2 /* SceneDelegate.swift */; };
 		18D06F0024D07F0F009557B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06EFF24D07F0F009557B2 /* ViewController.swift */; };
@@ -14,10 +21,16 @@
 		18D06F0624D07F0F009557B2 /* KWKTipVillage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D06F0424D07F0F009557B2 /* KWKTipVillage.xcdatamodeld */; };
 		18D06F0824D07F10009557B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D06F0724D07F10009557B2 /* Assets.xcassets */; };
 		18D06F0B24D07F10009557B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D06F0924D07F10009557B2 /* LaunchScreen.storyboard */; };
-		18D06F1324D0A457009557B2 /* PhysicalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D06F1224D0A457009557B2 /* PhysicalHealthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1837ED4024D1F6040091E3AD /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
+		1837ED4224D1F86E0091E3AD /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		1837ED4424D1FC620091E3AD /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		1837ED4624D1FCDD0091E3AD /* NutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
+		1837ED4824D1FCF80091E3AD /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		1837ED4A24D1FD0E0091E3AD /* EnviroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviroViewController.swift; sourceTree = "<group>"; };
+		1837ED4C24D1FD1D0091E3AD /* CovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidViewController.swift; sourceTree = "<group>"; };
 		18D06EF824D07F0F009557B2 /* KWKTipVillage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKTipVillage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D06EFB24D07F0F009557B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D06EFD24D07F0F009557B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +40,6 @@
 		18D06F0724D07F10009557B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D06F0A24D07F10009557B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D06F0C24D07F10009557B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D06F1224D0A457009557B2 /* PhysicalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalHealthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +80,13 @@
 				18D06F0924D07F10009557B2 /* LaunchScreen.storyboard */,
 				18D06F0C24D07F10009557B2 /* Info.plist */,
 				18D06F0424D07F0F009557B2 /* KWKTipVillage.xcdatamodeld */,
-				18D06F1224D0A457009557B2 /* PhysicalHealthViewController.swift */,
+				1837ED4024D1F6040091E3AD /* FitnessViewController.swift */,
+				1837ED4224D1F86E0091E3AD /* MoodViewController.swift */,
+				1837ED4424D1FC620091E3AD /* FamilyViewController.swift */,
+				1837ED4624D1FCDD0091E3AD /* NutritionViewController.swift */,
+				1837ED4824D1FCF80091E3AD /* SleepViewController.swift */,
+				1837ED4A24D1FD0E0091E3AD /* EnviroViewController.swift */,
+				1837ED4C24D1FD1D0091E3AD /* CovidViewController.swift */,
 			);
 			path = KWKTipVillage;
 			sourceTree = "<group>";
@@ -144,11 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1837ED4524D1FC620091E3AD /* FamilyViewController.swift in Sources */,
 				18D06F0624D07F0F009557B2 /* KWKTipVillage.xcdatamodeld in Sources */,
+				1837ED4124D1F6040091E3AD /* FitnessViewController.swift in Sources */,
+				1837ED4B24D1FD0E0091E3AD /* EnviroViewController.swift in Sources */,
+				1837ED4724D1FCDD0091E3AD /* NutritionViewController.swift in Sources */,
 				18D06F0024D07F0F009557B2 /* ViewController.swift in Sources */,
-				18D06F1324D0A457009557B2 /* PhysicalHealthViewController.swift in Sources */,
 				18D06EFC24D07F0F009557B2 /* AppDelegate.swift in Sources */,
+				1837ED4924D1FCF80091E3AD /* SleepViewController.swift in Sources */,
 				18D06EFE24D07F0F009557B2 /* SceneDelegate.swift in Sources */,
+				1837ED4D24D1FD1D0091E3AD /* CovidViewController.swift in Sources */,
+				1837ED4324D1F86E0091E3AD /* MoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
