@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1835916B24D3621100AF9FCA /* subFitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835916A24D3621100AF9FCA /* subFitnessViewController.swift */; };
+		1835916D24D3621F00AF9FCA /* subFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835916C24D3621F00AF9FCA /* subFamilyViewController.swift */; };
+		1835916F24D3622B00AF9FCA /* subMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835916E24D3622B00AF9FCA /* subMoodViewController.swift */; };
+		1835917124D3623800AF9FCA /* subGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835917024D3623800AF9FCA /* subGoalsViewController.swift */; };
+		1835917324D3624400AF9FCA /* subIllnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835917224D3624400AF9FCA /* subIllnessViewController.swift */; };
+		1835917524D3624E00AF9FCA /* subFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835917424D3624E00AF9FCA /* subFriendsViewController.swift */; };
 		1837ED4124D1F6040091E3AD /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4024D1F6040091E3AD /* FitnessViewController.swift */; };
 		1837ED4324D1F86E0091E3AD /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4224D1F86E0091E3AD /* MoodViewController.swift */; };
 		1837ED4524D1FC620091E3AD /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837ED4424D1FC620091E3AD /* FamilyViewController.swift */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1835916A24D3621100AF9FCA /* subFitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subFitnessViewController.swift; sourceTree = "<group>"; };
+		1835916C24D3621F00AF9FCA /* subFamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subFamilyViewController.swift; sourceTree = "<group>"; };
+		1835916E24D3622B00AF9FCA /* subMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subMoodViewController.swift; sourceTree = "<group>"; };
+		1835917024D3623800AF9FCA /* subGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subGoalsViewController.swift; sourceTree = "<group>"; };
+		1835917224D3624400AF9FCA /* subIllnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subIllnessViewController.swift; sourceTree = "<group>"; };
+		1835917424D3624E00AF9FCA /* subFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subFriendsViewController.swift; sourceTree = "<group>"; };
 		1837ED4024D1F6040091E3AD /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
 		1837ED4224D1F86E0091E3AD /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
 		1837ED4424D1FC620091E3AD /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +99,12 @@
 				1837ED4824D1FCF80091E3AD /* SleepViewController.swift */,
 				1837ED4A24D1FD0E0091E3AD /* EnviroViewController.swift */,
 				1837ED4C24D1FD1D0091E3AD /* CovidViewController.swift */,
+				1835916A24D3621100AF9FCA /* subFitnessViewController.swift */,
+				1835916C24D3621F00AF9FCA /* subFamilyViewController.swift */,
+				1835916E24D3622B00AF9FCA /* subMoodViewController.swift */,
+				1835917024D3623800AF9FCA /* subGoalsViewController.swift */,
+				1835917224D3624400AF9FCA /* subIllnessViewController.swift */,
+				1835917424D3624E00AF9FCA /* subFriendsViewController.swift */,
 			);
 			path = KWKTipVillage;
 			sourceTree = "<group>";
@@ -166,13 +184,19 @@
 				18D06F0624D07F0F009557B2 /* KWKTipVillage.xcdatamodeld in Sources */,
 				1837ED4124D1F6040091E3AD /* FitnessViewController.swift in Sources */,
 				1837ED4B24D1FD0E0091E3AD /* EnviroViewController.swift in Sources */,
+				1835916F24D3622B00AF9FCA /* subMoodViewController.swift in Sources */,
 				1837ED4724D1FCDD0091E3AD /* NutritionViewController.swift in Sources */,
 				18D06F0024D07F0F009557B2 /* ViewController.swift in Sources */,
+				1835916B24D3621100AF9FCA /* subFitnessViewController.swift in Sources */,
 				18D06EFC24D07F0F009557B2 /* AppDelegate.swift in Sources */,
 				1837ED4924D1FCF80091E3AD /* SleepViewController.swift in Sources */,
+				1835917124D3623800AF9FCA /* subGoalsViewController.swift in Sources */,
 				18D06EFE24D07F0F009557B2 /* SceneDelegate.swift in Sources */,
+				1835917324D3624400AF9FCA /* subIllnessViewController.swift in Sources */,
 				1837ED4D24D1FD1D0091E3AD /* CovidViewController.swift in Sources */,
 				1837ED4324D1F86E0091E3AD /* MoodViewController.swift in Sources */,
+				1835917524D3624E00AF9FCA /* subFriendsViewController.swift in Sources */,
+				1835916D24D3621F00AF9FCA /* subFamilyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
