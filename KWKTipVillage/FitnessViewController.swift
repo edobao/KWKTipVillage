@@ -10,11 +10,23 @@ import UIKit
 
 class FitnessViewController: UIViewController {
 
+    @IBOutlet weak var illnessSubView: UIView!
+    @IBOutlet weak var fitnessSubView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func switchViews(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            fitnessSubView.alpha = 1
+            illnessSubView.alpha = 0
+        } else {
+            fitnessSubView.alpha = 0
+            illnessSubView.alpha = 1
+        }
+    }
+    
     
 
     /*

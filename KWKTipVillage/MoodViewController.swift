@@ -10,13 +10,23 @@ import UIKit
 
 class MoodViewController: UIViewController {
 
+    @IBOutlet weak var goalsSubView: UIView!
+    @IBOutlet weak var moodSubView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
+    @IBAction func switchViews(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            moodSubView.alpha = 1
+            goalsSubView.alpha = 0
+        } else {
+            moodSubView.alpha = 0
+            goalsSubView.alpha = 1
+        }
+    }
     /*
     // MARK: - Navigation
 
