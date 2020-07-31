@@ -47,19 +47,19 @@ class subMoodViewController: UIViewController {
     
     @IBAction func nextVibeSpeech(_ sender: UIButton) {
         idleImage.isHidden = false
-               idleImage.alpha = 1.0
-               UIView.animate(withDuration: 2.0, delay: 5, options: [], animations: {
-                   self.idleImage.alpha = 0.0
-               }) { (finished: Bool) in
-                   self.idleImage.isHidden = true
-               }
+        idleImage.alpha = 1.0
+        UIView.animate(withDuration: 2.0, delay: 0.10, options: [], animations: {
+            self.idleImage.alpha = 0.0
+        }) {(finished: Bool) in
+            self.idleImage.isHidden = true
+        }
                talkingImage.isHidden = true
                talkingImage.alpha = 0.0
-                  UIView.animate(withDuration: 2, delay: 10.0, options: [], animations: {
+        UIView.animate(withDuration: 3.0, delay: 0.05, options: [], animations: {
                    self.talkingImage.alpha = 1.0
                   }) { (finished: Bool) in
                       self.talkingImage.isHidden = false
-                   UIView.animate(withDuration: 2.0, delay: 13.0, options: [], animations: {
+                    UIView.animate(withDuration: 3.0, delay: 1.5, options: [], animations: {
                        self.talkingImage.alpha = 0.0
                    }) { (finished: Bool) in
                        self.talkingImage.isHidden = true
@@ -67,11 +67,11 @@ class subMoodViewController: UIViewController {
                   }
                happyImage.isHidden = true
                  happyImage.alpha = 0.0
-                    UIView.animate(withDuration: 2, delay: 18.0, options: [], animations: {
+        UIView.animate(withDuration: 3.0, delay: 2.5, options: [], animations: {
                      self.happyImage.alpha = 1.0
                     }) { (finished: Bool) in
                        self.happyImage.isHidden = false
-                       UIView.animate(withDuration: 2.0, delay: 22.0, options: [], animations: {
+                        UIView.animate(withDuration: 3.0, delay: 3.0, options: [], animations: {
                            self.happyImage.alpha = 0.0
                        }) { (finished: Bool) in
                            self.happyImage.isHidden = true
@@ -80,6 +80,9 @@ class subMoodViewController: UIViewController {
            
         sliderBarVibe.isHidden = true
         vibeSpeechBubble.isHidden = false
+        
+      vibeSpeechBubble.text = wordsVibe[numVibe]
+        numVibe = numVibe + 1
     }
     
     /*
