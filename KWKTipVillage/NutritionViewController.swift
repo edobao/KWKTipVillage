@@ -20,7 +20,7 @@ class NutritionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelNut.text = "..."
     }
     
     var speechNut = ["Did I tell you yet?", "I have a food garden!", "There’s a pear and peach tree and a patch of onion plants and mint.", "It’s really nice to have the groceries grow right outside, and I can store some food in my freezer for later.", "",

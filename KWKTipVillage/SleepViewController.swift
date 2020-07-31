@@ -21,7 +21,7 @@ class SleepViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelSleep.text = "Zzzz . . ."
     }
     
     var speechSleep = ["Zzzz . . .", "Oh, hi there! I’m just waking up from a nap . . .", "naps should only last 15 to 20 minutes before I get too far into the sleep cycle, so I’m glad you woke me up!", "If I’d woken up later I probably would’ve been more tired than I started being.", "",

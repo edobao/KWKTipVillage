@@ -17,7 +17,7 @@ class subIllnessViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        speechBubbleSick.text = "*sniff*"
     }
     
     var speechSick = [

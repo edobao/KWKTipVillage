@@ -19,7 +19,9 @@ class subFitnessViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        speechBubbleBirdt.text = ". . ."
+        
     }
     
     var speechBirdt = [
