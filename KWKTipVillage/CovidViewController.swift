@@ -12,6 +12,9 @@ class CovidViewController: UIViewController {
     
     var numNurse = 0
     
+    @IBOutlet weak var happyImage: UIImageView!
+    @IBOutlet weak var talkingImage: UIImageView!
+    @IBOutlet weak var idleImage: UIImageView!
     @IBOutlet weak var labelNurse: UILabel!
 
     override func viewDidLoad() {
@@ -28,6 +31,38 @@ class CovidViewController: UIViewController {
     "Covid (Corona Virus Disease) leaves us with a lot of unanswered questions, and it can be frustrating changing everyday routine without seeing an immediate difference.", "It’s important that change can come at a slow pace, and in cases like these isn’t it better to be safe than sorry?", "Little things like washing your hands frequently and wearing masks outdoors can really make a huge impact, even if you don’t realize it.", "This is a good site I found just in case you wanted to check it out!"]
     
     @IBAction func nextNurse(_ sender: UIButton) {
+        idleImage.isHidden = false
+                      idleImage.alpha = 1.0
+                      UIView.animate(withDuration: 2.0, delay: 5, options: [], animations: {
+                          self.idleImage.alpha = 0.0
+                      }) { (finished: Bool) in
+                          self.idleImage.isHidden = true
+                      }
+                      talkingImage.isHidden = true
+                      talkingImage.alpha = 0.0
+                         UIView.animate(withDuration: 2, delay: 10.0, options: [], animations: {
+                          self.talkingImage.alpha = 1.0
+                         }) { (finished: Bool) in
+                             self.talkingImage.isHidden = false
+                          UIView.animate(withDuration: 2.0, delay: 13.0, options: [], animations: {
+                              self.talkingImage.alpha = 0.0
+                          }) { (finished: Bool) in
+                              self.talkingImage.isHidden = true
+                          }
+                         }
+                      happyImage.isHidden = true
+                        happyImage.alpha = 0.0
+                           UIView.animate(withDuration: 2, delay: 18.0, options: [], animations: {
+                            self.happyImage.alpha = 1.0
+                           }) { (finished: Bool) in
+                              self.happyImage.isHidden = false
+                              UIView.animate(withDuration: 2.0, delay: 22.0, options: [], animations: {
+                                  self.happyImage.alpha = 0.0
+                              }) { (finished: Bool) in
+                                  self.happyImage.isHidden = true
+                              }
+                      }
+                  
         labelNurse.text = speechNurse[numNurse]
         numNurse = numNurse + 1
     }

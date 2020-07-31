@@ -38,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h37-vX-lE3">
-                                <rect key="frame" x="295" y="385" width="59" height="65"/>
+                                <rect key="frame" x="295" y="387" width="57" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" image="imageedit_10_5940988111">
@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-514" y="118"/>
+            <point key="canvasLocation" x="-514.49275362318849" y="117.85714285714285"/>
         </scene>
         <!--Mood View Controller-->
         <scene sceneID="9ao-zC-lQW">
@@ -157,6 +157,10 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="1WU-ZF-4mL">
+                                <rect key="frame" x="-10" y="751" width="435" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.93333333333333335" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="tLO-2y-jn9"/>
@@ -213,6 +217,10 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="7h6-9F-joP">
+                                <rect key="frame" x="-10" y="749" width="435" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.93333333333333335" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="agi-nK-vEy"/>
@@ -269,6 +277,10 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="oAI-jW-5pO">
+                                <rect key="frame" x="0.0" y="747" width="435" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.93333333333333335" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="lu6-Ud-Ane"/>
@@ -291,17 +303,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-f8-8dH">
-                                <rect key="frame" x="160" y="82" width="99" height="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="QQL-r6-blX">
+                                <rect key="frame" x="-10" y="748" width="435" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
-                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xDA-Wr-erd">
-                                <rect key="frame" x="154" y="471" width="240" height="317"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ToffyTalking" translatesAutoresizingMaskIntoConstraints="NO" id="San-ir-0sb">
+                                <rect key="frame" x="-158" y="224" width="677" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.75686274509999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ToffyTalking" translatesAutoresizingMaskIntoConstraints="NO" id="UaP-Xa-wIr">
+                                <rect key="frame" x="-127" y="224" width="595" height="529"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ToffyIdle" translatesAutoresizingMaskIntoConstraints="NO" id="uwg-4U-vbY">
+                                <rect key="frame" x="-137" y="206" width="572" height="547"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaT-O4-42S">
                                 <rect key="frame" x="32" y="238" width="362" height="172"/>
@@ -310,8 +326,15 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-f8-8dH">
+                                <rect key="frame" x="160" y="82" width="99" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
+                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DZ-hn-adD">
-                                <rect key="frame" x="287" y="419" width="62" height="36"/>
+                                <rect key="frame" x="248" y="306" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -327,7 +350,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="fvE-6a-re1"/>
                     <connections>
+                        <outlet property="happyImage" destination="San-ir-0sb" id="Pwj-jZ-rif"/>
+                        <outlet property="idleImage" destination="uwg-4U-vbY" id="KnW-5O-sBh"/>
                         <outlet property="labelNut" destination="uaT-O4-42S" id="xIp-es-ko6"/>
+                        <outlet property="talkingImage" destination="UaP-Xa-wIr" id="l4n-7H-yKZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rCG-Md-jkw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -342,18 +368,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="725-ys-5wI">
-                                <rect key="frame" x="154" y="475" width="240" height="317"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="8in-uE-9lA">
+                                <rect key="frame" x="-10" y="748" width="435" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.75686274509999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpX-5r-orQ">
-                                <rect key="frame" x="177" y="69" width="61" height="34"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BunnyHappy" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-xm-YGf">
+                                <rect key="frame" x="-250" y="260" width="867" height="480"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="24"/>
-                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BunnyTalking" translatesAutoresizingMaskIntoConstraints="NO" id="Pms-33-hNd">
+                                <rect key="frame" x="-85" y="318" width="536" height="436"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BunnyIdle" translatesAutoresizingMaskIntoConstraints="NO" id="FsR-nK-uab">
+                                <rect key="frame" x="-85" y="249" width="503" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFB-7S-11G">
                                 <rect key="frame" x="26" y="238" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -361,8 +391,15 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpX-5r-orQ">
+                                <rect key="frame" x="177" y="69" width="61" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="24"/>
+                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q64-RP-9EV">
-                                <rect key="frame" x="281" y="419" width="62" height="36"/>
+                                <rect key="frame" x="255" y="306" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -378,7 +415,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="mg0-pr-thW"/>
                     <connections>
+                        <outlet property="happyImage" destination="5uK-xm-YGf" id="p1p-Ee-84m"/>
+                        <outlet property="idleImage" destination="FsR-nK-uab" id="g6o-Vt-avX"/>
                         <outlet property="labelSleep" destination="lFB-7S-11G" id="tV4-J1-YT1"/>
+                        <outlet property="talkingImage" destination="Pms-33-hNd" id="gAd-bi-ovD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQ2-7G-HCj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -393,18 +433,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3fX-BV-Sep">
-                                <rect key="frame" x="154" y="476" width="240" height="317"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="Wtr-rW-GHd">
+                                <rect key="frame" x="-10" y="748" width="435" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.75686274509999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Environmental Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR9-ea-xaG">
-                                <rect key="frame" x="86" y="62" width="243" height="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EVHappy" translatesAutoresizingMaskIntoConstraints="NO" id="mQZ-Wm-2hE">
+                                <rect key="frame" x="-45" y="330" width="504" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
-                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EVTalking" translatesAutoresizingMaskIntoConstraints="NO" id="F1k-cY-E7G">
+                                <rect key="frame" x="-63" y="314" width="541" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EVIdle" translatesAutoresizingMaskIntoConstraints="NO" id="6VW-my-9Cu">
+                                <rect key="frame" x="-148" y="314" width="710" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGd-r7-9pL">
                                 <rect key="frame" x="32" y="242" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -412,8 +456,15 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Environmental Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR9-ea-xaG">
+                                <rect key="frame" x="86" y="62" width="243" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
+                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ9-ky-cFZ">
-                                <rect key="frame" x="287" y="423" width="62" height="36"/>
+                                <rect key="frame" x="254" y="310" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -429,12 +480,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="tS8-kG-qLz"/>
                     <connections>
+                        <outlet property="happyImage" destination="mQZ-Wm-2hE" id="6cw-c7-YXT"/>
+                        <outlet property="idleImage" destination="6VW-my-9Cu" id="I0w-mg-hW5"/>
                         <outlet property="labelEnv" destination="CGd-r7-9pL" id="Q6P-bP-Xfx"/>
+                        <outlet property="talkingImage" destination="F1k-cY-E7G" id="lwc-fZ-Eaw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zox-hI-fNX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4683" y="117"/>
+            <point key="canvasLocation" x="4682.608695652174" y="116.51785714285714"/>
         </scene>
         <!--Covid View Controller-->
         <scene sceneID="dY7-Ef-Amo">
@@ -444,18 +498,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NpY-EQ-ITi">
-                                <rect key="frame" x="154" y="476" width="240" height="317"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="dsj-4S-UkX">
+                                <rect key="frame" x="-10" y="748" width="435" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.75686274509999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Covid-19 Essential Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pep-sV-hSl">
-                                <rect key="frame" x="30" y="58" width="354" height="35"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NurseHappy" translatesAutoresizingMaskIntoConstraints="NO" id="vxm-P2-GjR">
+                                <rect key="frame" x="-126" y="201" width="579" height="550"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
-                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NurseTalking" translatesAutoresizingMaskIntoConstraints="NO" id="XCE-pH-blb">
+                                <rect key="frame" x="-169" y="190" width="639" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NurseIdle" translatesAutoresizingMaskIntoConstraints="NO" id="319-4X-hYs">
+                                <rect key="frame" x="-235" y="172" width="747" height="579"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Clk-Gl-wVf">
                                 <rect key="frame" x="30" y="238" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -463,8 +521,15 @@
                                 <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Covid-19 Essential Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pep-sV-hSl">
+                                <rect key="frame" x="30" y="58" width="354" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="25"/>
+                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.071545250709999994" green="0.24336948990000001" blue="0.3087186515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efm-Nd-E0x">
-                                <rect key="frame" x="285" y="419" width="62" height="36"/>
+                                <rect key="frame" x="257" y="306" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -480,12 +545,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ler-CX-SVt"/>
                     <connections>
+                        <outlet property="happyImage" destination="vxm-P2-GjR" id="gni-Yk-pg0"/>
+                        <outlet property="idleImage" destination="319-4X-hYs" id="Cdd-ys-eOw"/>
                         <outlet property="labelNurse" destination="Clk-Gl-wVf" id="QnO-DE-pvX"/>
+                        <outlet property="talkingImage" destination="XCE-pH-blb" id="YJ0-Tn-ZJE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SL0-YW-wag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3981" y="118"/>
+            <point key="canvasLocation" x="3979.7101449275365" y="117.85714285714285"/>
         </scene>
         <!--Sub Mood View Controller-->
         <scene sceneID="R4q-qg-wQJ">
@@ -495,15 +563,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFU-fd-K6f">
-                                <rect key="frame" x="26" y="352" width="362" height="172"/>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="21I-mj-dAY">
+                                <rect key="frame" x="148" y="202" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="20"/>
-                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <connections>
+                                    <action selector="sliderBarMovedVibe:" destination="8t2-Qy-p7i" eventType="valueChanged" id="FCw-yL-smr"/>
+                                </connections>
+                            </slider>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VibeHappy" translatesAutoresizingMaskIntoConstraints="NO" id="ZuQ-6x-35M">
+                                <rect key="frame" x="-61" y="322" width="491" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VibeTalking" translatesAutoresizingMaskIntoConstraints="NO" id="PRo-XG-Pj5">
+                                <rect key="frame" x="-148" y="335" width="664" height="487"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VibeIdle" translatesAutoresizingMaskIntoConstraints="NO" id="x9I-7w-pCL">
+                                <rect key="frame" x="-76" y="336" width="520" height="486"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3N-B2-bpg">
-                                <rect key="frame" x="281" y="533" width="62" height="36"/>
+                                <rect key="frame" x="285" y="420" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -513,25 +593,28 @@
                                     <action selector="nextVibeSpeech:" destination="8t2-Qy-p7i" eventType="touchUpInside" id="mM0-Lh-bJa"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="21I-mj-dAY">
-                                <rect key="frame" x="148" y="202" width="118" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFU-fd-K6f">
+                                <rect key="frame" x="26" y="352" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="sliderBarMovedVibe:" destination="8t2-Qy-p7i" eventType="valueChanged" id="FCw-yL-smr"/>
-                                </connections>
-                            </slider>
+                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="20"/>
+                                <color key="textColor" red="0.071630932389999999" green="0.2433539629" blue="0.31681892280000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.93333333333333335" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ffu-Pc-Z6A"/>
                     </view>
                     <connections>
+                        <outlet property="happyImage" destination="ZuQ-6x-35M" id="Pp2-M4-jap"/>
+                        <outlet property="idleImage" destination="x9I-7w-pCL" id="SJH-a4-12P"/>
                         <outlet property="sliderBarVibe" destination="21I-mj-dAY" id="UlP-QH-V1h"/>
+                        <outlet property="talkingImage" destination="PRo-XG-Pj5" id="gPM-c3-uC3"/>
                         <outlet property="vibeSpeechBubble" destination="qFU-fd-K6f" id="Ard-Hu-YXr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NcV-6H-Lgf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-538" y="808"/>
+            <point key="canvasLocation" x="-539.13043478260875" y="807.58928571428567"/>
         </scene>
         <!--Sub Goals View Controller-->
         <scene sceneID="mtj-ms-TdW">
@@ -541,6 +624,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClydeHappy" translatesAutoresizingMaskIntoConstraints="NO" id="Bd1-xn-iFA">
+                                <rect key="frame" x="-74" y="340" width="488" height="478"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClydeTalking" translatesAutoresizingMaskIntoConstraints="NO" id="7O4-xh-N4N">
+                                <rect key="frame" x="-81" y="308" width="495" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClydeIdle" id="AS1-vy-Z0Z">
+                                <rect key="frame" x="-88" y="328" width="517" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaO-Oc-RCk">
                                 <rect key="frame" x="26" y="351" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -549,7 +644,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmf-3e-kqv">
-                                <rect key="frame" x="281" y="532" width="62" height="36"/>
+                                <rect key="frame" x="279" y="419" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -564,12 +659,15 @@
                         <viewLayoutGuide key="safeArea" id="x8p-hA-u55"/>
                     </view>
                     <connections>
+                        <outlet property="happyImage" destination="Bd1-xn-iFA" id="lyE-93-FkB"/>
+                        <outlet property="idleImage" destination="AS1-vy-Z0Z" id="I90-Yd-Byu"/>
                         <outlet property="speechBubbleClide" destination="UaO-Oc-RCk" id="ard-In-Z2A"/>
+                        <outlet property="talkingImage" destination="7O4-xh-N4N" id="WP1-Qk-2pP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oZp-C2-adM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="808"/>
+            <point key="canvasLocation" x="153.62318840579712" y="807.58928571428567"/>
         </scene>
         <!--Sub Fitness View Controller-->
         <scene sceneID="Lsd-Vk-yez">
@@ -579,6 +677,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BirdtHappy" translatesAutoresizingMaskIntoConstraints="NO" id="WeM-NT-eDy">
+                                <rect key="frame" x="-201" y="178" width="717" height="636"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BirdtTalking" translatesAutoresizingMaskIntoConstraints="NO" id="wtV-85-wIZ">
+                                <rect key="frame" x="-214" y="178" width="691" height="636"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BirdtIdle" translatesAutoresizingMaskIntoConstraints="NO" id="gt9-YN-dWn">
+                                <rect key="frame" x="-242" y="142" width="719" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3k2-OQ-e0F">
                                 <rect key="frame" x="26" y="340" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -587,7 +697,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrk-XQ-iRW">
-                                <rect key="frame" x="281" y="521" width="62" height="36"/>
+                                <rect key="frame" x="273" y="408" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -602,12 +712,15 @@
                         <viewLayoutGuide key="safeArea" id="V1f-aC-cIC"/>
                     </view>
                     <connections>
+                        <outlet property="happyImage" destination="WeM-NT-eDy" id="Leb-Ft-zdq"/>
+                        <outlet property="idleImage" destination="gt9-YN-dWn" id="TAG-gO-930"/>
                         <outlet property="speechBubbleBirdt" destination="3k2-OQ-e0F" id="0UZ-A9-6sa"/>
+                        <outlet property="talkingImage" destination="wtV-85-wIZ" id="0E9-9Q-bMc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0L-4m-YbQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="808"/>
+            <point key="canvasLocation" x="844.92753623188412" y="807.58928571428567"/>
         </scene>
         <!--Sub Illness View Controller-->
         <scene sceneID="Hmh-Sr-Ci2">
@@ -655,6 +768,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MidzyHappy" translatesAutoresizingMaskIntoConstraints="NO" id="8do-U2-8eL">
+                                <rect key="frame" x="-69" y="344" width="524" height="471"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MidzyTalking" translatesAutoresizingMaskIntoConstraints="NO" id="rNG-bc-3Wi">
+                                <rect key="frame" x="-43" y="330" width="473" height="499"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MidzyIdle" translatesAutoresizingMaskIntoConstraints="NO" id="Whh-Wv-Rrf">
+                                <rect key="frame" x="-124" y="316" width="591" height="499"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8a-RU-Bsa">
                                 <rect key="frame" x="26" y="327" width="362" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -663,7 +788,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RF8-U4-qso">
-                                <rect key="frame" x="281" y="508" width="62" height="36"/>
+                                <rect key="frame" x="265" y="395" width="62" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="17"/>
                                 <state key="normal" title="Next &gt;&gt;">
@@ -678,12 +803,15 @@
                         <viewLayoutGuide key="safeArea" id="CS8-Vn-fnK"/>
                     </view>
                     <connections>
+                        <outlet property="happyImage" destination="8do-U2-8eL" id="arT-BK-LdU"/>
+                        <outlet property="idleImage" destination="Whh-Wv-Rrf" id="2k6-w6-T4T"/>
                         <outlet property="speechBubbleFam" destination="o8a-RU-Bsa" id="a2L-7P-rAr"/>
+                        <outlet property="talkingImage" destination="rNG-bc-3Wi" id="O3n-lf-I6L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mRR-g0-Q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2193" y="808"/>
+            <point key="canvasLocation" x="2192.753623188406" y="807.58928571428567"/>
         </scene>
         <!--Sub Friends View Controller-->
         <scene sceneID="8SG-Lc-WvX">
@@ -725,6 +853,30 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BirdtHappy" width="768" height="768"/>
+        <image name="BirdtIdle" width="768" height="768"/>
+        <image name="BirdtTalking" width="768" height="768"/>
+        <image name="BunnyHappy" width="768" height="768"/>
+        <image name="BunnyIdle" width="768" height="768"/>
+        <image name="BunnyTalking" width="768" height="768"/>
+        <image name="ClydeHappy" width="768" height="768"/>
+        <image name="ClydeIdle" width="768" height="768"/>
+        <image name="ClydeTalking" width="768" height="768"/>
+        <image name="EVHappy" width="768" height="768"/>
+        <image name="EVIdle" width="768" height="768"/>
+        <image name="EVTalking" width="768" height="768"/>
+        <image name="MidzyHappy" width="768" height="768"/>
+        <image name="MidzyIdle" width="768" height="768"/>
+        <image name="MidzyTalking" width="768" height="768"/>
+        <image name="NurseHappy" width="768" height="768"/>
+        <image name="NurseIdle" width="768" height="768"/>
+        <image name="NurseTalking" width="768" height="768"/>
+        <image name="ToffyIdle" width="768" height="768"/>
+        <image name="ToffyTalking" width="768" height="768"/>
+        <image name="VibeHappy" width="768" height="768"/>
+        <image name="VibeIdle" width="768" height="768"/>
+        <image name="VibeTalking" width="768" height="768"/>
+        <image name="footer" width="500" height="116"/>
         <image name="imageedit_10_5940988111" width="318" height="318"/>
         <image name="imageedit_12_9448096557" width="317" height="317"/>
         <image name="imageedit_1_2604181364" width="258" height="258"/>
