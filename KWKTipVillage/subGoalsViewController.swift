@@ -26,8 +26,8 @@ class subGoalsViewController: UIViewController {
     var numClide = 0
     
     var speechClide = [
-        "New week new me, heh. I’m trying to start writing down what I want to get done this week so I can plan for it . . .", "It kinda gets messy in my head sometimes, but seeing it in a list really clears it up for me.", "",
-        "Sometimes it’s really hard to find motivation.", "Like right now I should go for a run (around my house) but I could sleep instead, right?", "Well, when this happens it can be helpful to say aloud “In three seconds I’m going to run for 10 minutes” and then count down.", "Let’s try it. Just lemme know when you’re ready for the countdown.", "Ready?", "3", "2", "1", "GO"
+        "New week new me, heh.", "I’m trying to start writing down what I want to get done this week so I can plan for it . . .", "It kinda gets messy in my head sometimes, but seeing it in a list really clears it up for me.", "",
+        "Sometimes it’s really hard to find motivation.", "Like right now I should go for a run (around my house)", "but I could sleep instead, right?", "Well, when this happens it can be helpful to say aloud", "“In three seconds I’m going to run for 10 minutes” and then count down.", "Let’s try it. Just lemme know when you’re ready for the countdown.", "Ready?", "3", "2", "1", "GO"
     ]
 
     @IBAction func nextButtonClide(_ sender: UIButton) {

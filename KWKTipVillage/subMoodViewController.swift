@@ -19,8 +19,8 @@ class subMoodViewController: UIViewController {
     var numVibe = 0
     
     var wordsVibe = [
-        "Ah, I see. It happens sometimes. Sometimes when I feel that way I call up my friend Birdt and vent. He’s a good hype friend.", "",
-        "Sometimes it’s just one of those days, huh? This is when we check in with ourselves and ask: have we eaten? Had a glass of water? Taken a break to get some exercise? Sometimes it’s the little things that add up, so we have to remember to take a breather when things aren’t as they should.", "",
+        "Ah, I see. It happens sometimes. Sometimes when I feel that way I call up my friend Birdt and vent.", "He’s a good hype friend.", "",
+        "Sometimes it’s just one of those days, huh?", "This is when we check in with ourselves and ask: have we eaten?", "Had a glass of water? Taken a break to get some exercise?", "Sometimes it’s the little things that add up,", "so we have to remember to take a breather when things aren’t as they should.", "",
         "Nice! I’m doing pretty well myself.", ""
     ]
     
